@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Before;
 
 public class Test {
-    Main main;
+    
     Points left_top_one;
     Points right_bottom_one;
     Points left_top_two;
@@ -12,7 +12,7 @@ public class Test {
 
     @Before
     public void setup() {
-        main = new Main();
+
         left_top_one = new Points();
         right_bottom_one = new Points();
         left_top_two = new Points();
